@@ -1,6 +1,17 @@
 .about {
   margin: 0 150px;
+  padding: 30px 0 -30px 0;
+  border: 1px solid black;  /* remove */
+}
+
+.about-section {
   height: 100vh;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 80px;
 }
 
 .about-section {
@@ -54,7 +65,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .education .card {
-  padding-top: 0px;
+  padding-top: 30px;
 }
 .my-pic {
   text-align: center;

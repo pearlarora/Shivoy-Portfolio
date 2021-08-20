@@ -42,6 +42,43 @@ p {
 a {
   text-decoration: none;
 }
-i {
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.164);
+  padding: 30px;
+  border-radius: 10px;
+}
+.card i {
+  font-size: 35px;
+  color: white;
+}
+.card h4 {
   font-size: 25px;
+  font-weight: normal;
+  margin: 0 10px;
+}
+.card h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+.card:hover i {
+  color: black;
+}
+.card:hover h4,
+.card:hover h5,
+.card:hover p {
+  color: black;
 }

@@ -13,15 +13,15 @@ function About() {
             Science from The NorthCap University with the Full Stack
             Specialization.
           </p>
-          <div class="cards education">
-            <div class="card">
+          <div className="cards education">
+            <div className="card">
               <h4>The NorthCap University</h4>
               <p>Bachelor of Technology Computer Science</p>
               <p>
                 <b>2019-2023</b>
               </p>
             </div>
-            <div class="card">
+            <div className="card">
               <h4>The Air Force School</h4>
               <p>12th, Non-Medical</p>
               <p>
