@@ -1,0 +1,84 @@
+* {
+  color: black;
+  margin: 0;
+}
+
+.background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+}
+
+.background-overlay {
+  background-image: linear-gradient(315deg, rgba(249, 193, 177, 0.712), rgba(251, 128, 132, 0.747));
+  z-index: -5;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+p {
+  font-size: 22px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.164);
+  padding: 30px;
+  border-radius: 10px;
+}
+.card i {
+  font-size: 35px;
+  color: white;
+}
+.card h4 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 10px;
+}
+.card h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+.card:hover i {
+  color: black;
+}
+.card:hover h4,
+.card:hover h5,
+.card:hover p {
+  color: black;
+}

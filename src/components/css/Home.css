@@ -1,0 +1,23 @@
+.landing-page {
+  text-align: center;
+  margin: 0 150px;
+  border: 1px solid black;  /* remove */
+}
+
+.portfolio-intro {
+  height: 100vh;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.next-section {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.intro-content h1 {
+  font-size: 100px;
+}
