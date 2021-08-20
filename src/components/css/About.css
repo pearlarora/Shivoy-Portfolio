@@ -1,0 +1,67 @@
+.about {
+  margin: 0 150px;
+  height: 100vh;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  grid-gap: 80px;
+}
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.164);
+  padding: 30px;
+  border-radius: 10px;
+}
+.card i {
+  font-size: 35px;
+  color: white;
+}
+.card h4 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+}
+.card h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+.card:hover i {
+  color: black;
+}
+.card:hover h4,
+.card:hover h5,
+.card:hover p {
+  color: black;
+}
+
+.education {
+  grid-template-columns: repeat(2, 1fr);
+}
+.education .card {
+  padding-top: 0px;
+}
+.my-pic {
+  text-align: center;
+}
+.my-pic img {
+  height: 70vh;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.300);
+}
